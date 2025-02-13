@@ -1,12 +1,12 @@
 # Rock-paper-scissors
 Future create this game also
 
-
 ###Rock paper scissors
 ###Rock wins sciccor, scissor win paper, paper win rock
 
 import random
 user_choice = int(input("Choose 0 for rock, 1 for paper, 2 for scissors = \n"))
+
 if user_choice >= 3 or user_choice < 0:    
   print("invalid number")
 else:    
